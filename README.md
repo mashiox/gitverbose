@@ -11,7 +11,7 @@ $ python
 
 ```python
 import gitverbose as gb 
-myLog = Log("path/to/log.txt")
+myLog = gb.Log("path/to/log.txt")
 
 longest = myLog.GetLongestCommit()
 print longest.toString() # Prints the entire log section
