@@ -21,6 +21,6 @@ print longest.GetMessage() # Prints the comment comment
 print longest.GetMesssageLength() # Prints the number of lines.
 
 chatty = myLog.GetCommitsOverNLines(20) # Gets the commits that have 20 lines or more.
-print '\n'.join([chat.toString() for chat in chatty]) # Prints all commits that are 20 lines or more
+gb.Log.print( chatty ) # Prints all commits from prior list
 ```
 
