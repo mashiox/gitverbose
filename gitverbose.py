@@ -82,5 +82,8 @@ class Log:
     Returns the string of the logfile
     '''
     def toString(self): return '\n'.join([ commit.toString() for commit in self.__commits ])
+    
+    def print( commitList ):
+        print( '\n'.join( [ commit.toString() for commit in commitList ] ) )
 
 
